@@ -1,0 +1,5 @@
+s = input("enter a string")
+words = s.split()
+reversed_sentence = " ".join(words[::-1])
+print("Original:", s)
+print("Reversed words:", reversed_sentence)
