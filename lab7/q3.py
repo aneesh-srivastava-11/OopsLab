@@ -1,5 +1,4 @@
 # Insertion Sort in Python
-
 def insertion_sort(arr):
     for i in range(1, len(arr)):
         key = arr[i]
@@ -8,9 +7,6 @@ def insertion_sort(arr):
             arr[j+1] = arr[j]
             j -= 1
         arr[j+1] = key
-
-
-# ---------- Main Program ----------
 arr = [64, 25, 12, 22, 11]
 print("Original Array:", arr)
 
